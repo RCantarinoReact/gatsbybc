@@ -9,7 +9,7 @@ const SocialLinks = () => (
   <S.SocialLinksWrapper>
     <S.SocialLinksList>
       {links.map((link, i) => {
-        coßnst Icon = Icons[link.label]
+        const Icon = Icons[link.label]
 
         return (
           <S.SocialLinksItem key={i}>
