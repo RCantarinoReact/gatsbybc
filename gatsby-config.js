@@ -7,6 +7,7 @@ module.exports = {
     position: `Backend Developer`,
     description: `A blog about backend development and other cool stuff.`,
     author: `@myblog`,
+    siteurl: 'https://mysite.com.br'
   },
   plugins: [
     `gatsby-plugin-styled-components`,
